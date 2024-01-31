@@ -1,0 +1,22 @@
+14:24:52.156 [INFO]  [Preparing] Diffblue Cover 2023.12.02-e4c4274-licensed
+14:24:52.158 [INFO]  [Preparing] Running: dcover create --preflight
+14:24:52.158 [INFO]  [Preparing] 
+14:24:52.159 [INFO]  [Preparing] Command: create
+14:24:52.160 [INFO]  [Preparing] Create tests for the specified package/class/method prefix.
+14:24:52.161 [INFO]  [Preparing] 
+14:24:54.193 [INFO]  [Checking] Operating System: Windows 10 amd64 10.0
+14:24:54.193 [INFO]  [Checking] Default charset: UTF-8
+14:24:54.193 [INFO]  [Checking] Default locale: en_IN
+14:24:54.193 [INFO]  [Checking] Default time zone: Asia/Calcutta
+14:24:54.204 [ERROR] [Checking] E014: No build system found
+Neither Gradle nor Maven build systems were detected.
+Use the --classpath option or CLASSPATH environment variable to specify
+a classpath manually.
+14:24:54.207 [WARN]  [Checking] E047: Unsupported Java version
+Diffblue provides only community support for Java version 20.0.2.
+Diffblue supports LTS versions Java 8 351+, Java 11.0.17+,
+Java 17.0.5+, or Java 21.0.1+ for production use.
+14:24:54.211 [INFO]  [Reporting] 
+14:24:54.212 [ERROR] [Reporting] One or more errors and warnings were logged, please review them in the log file
+14:24:54.212 [INFO]  [Reporting] Log file: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\.diffblue\log\user-20240103T142451.log
+14:24:54.213 [INFO]  [Reporting] Finished in 3s

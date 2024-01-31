@@ -1,0 +1,87 @@
+14:24:52.134 [DEBUG] [Preparing][main][com.diffblue.cover.ui.a.y] Client heap size: 4030 MB
+14:24:52.156 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.y] Diffblue Cover 2023.12.02-e4c4274-licensed
+14:24:52.158 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.y] Running: dcover create --preflight
+14:24:52.158 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] 
+14:24:52.159 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] Command: create
+14:24:52.160 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] Create tests for the specified package/class/method prefix.
+14:24:52.161 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] 
+14:24:54.175 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+14:24:54.175 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector
+14:24:54.176 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.177 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector took 1ms
+14:24:54.177 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+14:24:54.177 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s
+14:24:54.177 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.183 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s took 6ms
+14:24:54.183 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+14:24:54.184 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.185 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g took 1ms
+14:24:54.186 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector
+14:24:54.186 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_SYSTEM_CONFIG_FILE: Not Supplied
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_CLASSPATH: Not Supplied
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_PATH: Not Supplied
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_COMPLIANCE_LEVEL: Not Supplied
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector took 1ms
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+14:24:54.187 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_BUILD_SYSTEM_GRADLE: Not Detected
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 2ms
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_BUILD_SYSTEM_MAVEN: Not Detected
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c took 0ms
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak
+14:24:54.190 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.193 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Operating System: Windows 10 amd64 10.0
+14:24:54.193 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default charset: UTF-8
+14:24:54.193 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default locale: en_IN
+14:24:54.193 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default time zone: Asia/Calcutta
+14:24:54.195 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_ENVIRONMENT_CLASSPATH: Not Supplied
+14:24:54.195 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak took 5ms
+14:24:54.195 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+14:24:54.195 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+14:24:54.195 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_BUILD_SYSTEM: Can't find any build system
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_BUILD_SYSTEM_NAME: Can't find any build system
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_BUILD_SYSTEM_VERSION: Can't find any build system
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_MODULE_IS_VALID: Skipped
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 1ms
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 0ms
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t
+14:24:54.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.199 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t took 2ms
+14:24:54.200 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v
+14:24:54.200 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v took 0ms
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai took 0ms
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+14:24:54.201 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.204 [ERROR] [Checking][main][com.diffblue.cover.ui.a.j] E014: No build system found
+Neither Gradle nor Maven build systems were detected.
+Use the --classpath option or CLASSPATH environment variable to specify
+a classpath manually.
+14:24:54.205 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 4ms
+14:24:54.205 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m
+14:24:54.206 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+14:24:54.207 [WARN]  [Checking][main][com.diffblue.cover.ui.a.j] E047: Unsupported Java version
+Diffblue provides only community support for Java version 20.0.2.
+Diffblue supports LTS versions Java 8 351+, Java 11.0.17+,
+Java 17.0.5+, or Java 21.0.1+ for production use.
+14:24:54.209 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m took 3ms
+14:24:54.209 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+14:24:54.209 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule skipped
+14:24:54.209 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+14:24:54.209 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+14:24:54.210 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n took 0ms
+14:24:54.210 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p
+14:24:54.210 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+14:24:54.210 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p took 0ms
+14:24:54.211 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] 
+14:24:54.212 [ERROR] [Reporting][main][com.diffblue.cover.ui.a.y] One or more errors and warnings were logged, please review them in the log file
+14:24:54.212 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] Log file: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\.diffblue\log\user-20240103T142451.log
+14:24:54.213 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] Finished in 3s

@@ -1,0 +1,899 @@
+11:26:56.062 [DEBUG] [Preparing][main][com.diffblue.cover.ui.a.y] Client heap size: 4030 MB
+11:26:56.102 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.y] Diffblue Cover 2023.12.02-e4c4274-licensed
+11:26:56.103 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.y] Running: dcover create --preflight
+11:26:56.104 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] 
+11:26:56.104 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] Command: create
+11:26:56.107 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] Create tests for the specified package/class/method prefix.
+11:26:56.109 [INFO]  [Preparing][main][com.diffblue.cover.ui.a.aa] 
+11:26:59.194 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:26:59.196 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector
+11:26:59.196 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector took 1ms
+11:26:59.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:26:59.197 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s
+11:26:59.198 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.206 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s took 8ms
+11:26:59.207 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:26:59.207 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.207 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g took 0ms
+11:26:59.207 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector
+11:26:59.207 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_SYSTEM_CONFIG_FILE: Not Supplied
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_CLASSPATH: Not Supplied
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_PATH: Not Supplied
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_COMPLIANCE_LEVEL: Not Supplied
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector took 0ms
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:26:59.208 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.211 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_BUILD_SYSTEM_GRADLE: Not Detected
+11:26:59.211 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 3ms
+11:26:59.212 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+11:26:59.212 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:26:59.245 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:26:59.250 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -version"
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Maven home: C:\Program Files\apache-maven-3.9.4
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Java version: 21.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21.0.1
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Default locale: en_IN, platform encoding: UTF-8
+11:26:59.692 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+11:26:59.755 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:26:59.759 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D output=diffblue.effective-pom.output.xml -D checkstyle.skip=true -D mdep.outputFile=diffblue-cp.txt -D mdep.pathSeparator=#SEP# -D includeScope=test -D spring-javaformat.skip=true -D license.skip=true -D maven.compiler.failOnError=false -D mdep.outputProperty=build.classpath -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test-compile -am"
+11:27:02.859 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:02.859 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:02.859 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:02.859 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  1.159 s
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:02+05:30
+11:27:02.860 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:02.861 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:02.863 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D output=diffblue.effective-pom.output.xml -D checkstyle.skip=true -D mdep.outputFile=diffblue-cp.txt -D mdep.pathSeparator=#SEP# -D includeScope=test -D spring-javaformat.skip=true -D license.skip=true -D maven.compiler.failOnError=false -D mdep.outputProperty=build.classpath -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test-compile org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom org.apache.maven.plugins:maven-dependency-plugin:3.3.0:build-classpath org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate -am"
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:07.907 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:07.908 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- help:3.2.0:effective-pom (default-cli) @ simplejavacalculator ---
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Effective-POM written to: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\diffblue.effective-pom.output.xml
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:07.909 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- dependency:3.3.0:build-classpath (default-cli) @ simplejavacalculator ---
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Wrote classpath file 'C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\diffblue-cp.txt'.
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:07.910 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:07.911 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- help:3.2.0:evaluate (default-cli) @ simplejavacalculator ---
+11:27:07.911 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [ERROR] Maven is configured to NOT interact with the user for input. This Mojo requires that 'interactiveMode' in your settings file is flag to 'true'.
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  3.128 s
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:07+05:30
+11:27:07.912 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:08.033 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c took 8821ms
+11:27:08.033 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak
+11:27:08.033 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.038 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Operating System: Windows 10 amd64 10.0
+11:27:08.038 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default charset: UTF-8
+11:27:08.038 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default locale: en_IN
+11:27:08.038 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default time zone: Asia/Calcutta
+11:27:08.038 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_ENVIRONMENT_CLASSPATH: Not Supplied
+11:27:08.038 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak took 4ms
+11:27:08.038 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.038 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.038 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 4ms
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 0ms
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t
+11:27:08.044 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.053 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t took 8ms
+11:27:08.053 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v
+11:27:08.053 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.055 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v took 2ms
+11:27:08.055 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai
+11:27:08.055 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.055 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai took 0ms
+11:27:08.055 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:27:08.056 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.064 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 7ms
+11:27:08.064 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m
+11:27:08.064 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.064 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m took 0ms
+11:27:08.064 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 0ms
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n took 0ms
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:08.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p took 0ms
+11:27:08.067 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] Discovered modules:
+11:27:08.067 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] - org.example:simplejavacalculator
+11:27:08.074 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] 
+11:27:08.075 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] [1/1] Creating tests for module: org.example:simplejavacalculator
+11:27:08.075 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] =================================================================
+11:27:08.076 [INFO]  [Checking][main][com.diffblue.cover.ui.a.r] 
+11:27:08.076 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detecting environment:
+11:27:08.077 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] ----------------------
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai took 0ms
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule r
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CommonOptionsDetector took 0ms
+11:27:08.138 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:08.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+11:27:08.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:27:08.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s
+11:27:08.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.139 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected Java version 21.0.1
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s took 1ms
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g took 0ms
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_SYSTEM_CONFIG_FILE: Not Supplied
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_CLASSPATH: Not Supplied
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_BUILD_PATH: Not Supplied
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_COMPLIANCE_LEVEL: Not Supplied
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule BuildSystemOptionsDetector took 0ms
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+11:27:08.141 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:08.145 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:08.146 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -version"
+11:27:08.496 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:08.496 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
+11:27:08.496 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Maven home: C:\Program Files\apache-maven-3.9.4
+11:27:08.496 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Java version: 21.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21.0.1
+11:27:08.497 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > Default locale: en_IN, platform encoding: UTF-8
+11:27:08.497 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+11:27:08.511 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:08.514 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D output=diffblue.effective-pom.output.xml -D checkstyle.skip=true -D mdep.outputFile=diffblue-cp.txt -D mdep.pathSeparator=#SEP# -D includeScope=test -D spring-javaformat.skip=true -D license.skip=true -D maven.compiler.failOnError=false -D mdep.outputProperty=build.classpath -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test-compile -am"
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:11.401 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:11.402 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  0.995 s
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:11+05:30
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:11.403 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:11.405 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D output=diffblue.effective-pom.output.xml -D checkstyle.skip=true -D mdep.outputFile=diffblue-cp.txt -D mdep.pathSeparator=#SEP# -D includeScope=test -D spring-javaformat.skip=true -D license.skip=true -D maven.compiler.failOnError=false -D mdep.outputProperty=build.classpath -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test-compile org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom org.apache.maven.plugins:maven-dependency-plugin:3.3.0:build-classpath org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate -am"
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- help:3.2.0:effective-pom (default-cli) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Effective-POM written to: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\diffblue.effective-pom.output.xml
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- dependency:3.3.0:build-classpath (default-cli) @ simplejavacalculator ---
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Wrote classpath file 'C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\diffblue-cp.txt'.
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:16.297 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- help:3.2.0:evaluate (default-cli) @ simplejavacalculator ---
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [ERROR] Maven is configured to NOT interact with the user for input. This Mojo requires that 'interactiveMode' in your settings file is flag to 'true'.
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  3.039 s
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:16+05:30
+11:27:16.298 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:16.328 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected build system: Maven 3.9.4
+11:27:16.328 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c took 8186ms
+11:27:16.328 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:27:16.328 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_BUILD_SYSTEM_GRADLE: Not Detected
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 2ms
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.331 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Operating System: Windows 10 amd64 10.0
+11:27:16.331 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default charset: UTF-8
+11:27:16.331 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default locale: en_IN
+11:27:16.331 [INFO]  [Checking][main][com.diffblue.cover.m.a.ak] Default time zone: Asia/Calcutta
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_ENVIRONMENT_CLASSPATH: Not Supplied
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak took 0ms
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:16.331 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.332 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected build system: Maven
+11:27:16.333 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 1ms
+11:27:16.333 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:16.334 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.334 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 0ms
+11:27:16.334 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:27:16.334 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.338 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected classpath from build system Maven
+11:27:16.340 [INFO]  [Checking][main][com.diffblue.cover.m.c.b] Expanded classpath: 
+C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\target\test-classes
+C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\target\classes (code under test)
+C:\Users\Soham.P\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar
+C:\Users\Soham.P\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar
+C:\Users\Soham.P\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar
+C:\Users\Soham.P\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar
+C:\Users\Soham.P\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar
+C:\Users\Soham.P\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar
+C:\Users\Soham.P\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+C:\Users\Soham.P\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar
+C:\Users\Soham.P\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar
+C:\Users\Soham.P\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+11:27:16.340 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 6ms
+11:27:16.340 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule r
+11:27:16.340 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule r took 19ms
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ae
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ae took 0ms
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule y
+11:27:16.360 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.522 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule y took 161ms
+11:27:16.522 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule af
+11:27:16.522 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_CORE: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_WEB: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_TEST: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_SECURITY_WEB: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_BOOT: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_SPRING_BOOT_TEST: Not Detected
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule af took 1ms
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule as
+11:27:16.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.552 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTING_FRAMEWORK_JUNIT: b: Failed to determine JUnit version by invoking class 'junit.runner.Version', method 'id', descriptor '()Ljava/lang/String'
+11:27:16.552 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule as took 28ms
+11:27:16.552 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule at
+11:27:16.553 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.567 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected test framework: JUnit Jupiter 5.10.0
+11:27:16.575 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected JUnit Jupiter version 5.10.0
+11:27:16.575 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule at took 23ms
+11:27:16.575 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule u
+11:27:16.575 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.584 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_JUNIT_JUPITER_PARAMS: b: Failed to determine JUnit Jupiter Params version from manifest; resource not found: org/junit/jupiter/params/ParameterizedTest.class
+11:27:16.584 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule u took 7ms
+11:27:16.584 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule au
+11:27:16.584 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.596 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTING_FRAMEWORK_TESTNG: b: Failed to determine TestNG version by invoking class 'org.testng.internal.Version', method 'getVersionString', descriptor '()Ljava/lang/String'
+11:27:16.596 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTNG_BELOW_6_9_5: Skipped
+11:27:16.596 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule au took 11ms
+11:27:16.596 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l
+11:27:16.596 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.604 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_JUNIT_VINTAGE_ENGINE: b: Failed to determine JUnit Vintage Engine version from manifest; resource not found: org/junit/vintage/engine/VintageTestEngine.class
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l took 9ms
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule z
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule al
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule al took 0ms
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule z
+11:27:16.606 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:16.616 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected Mockito version 5.8.0
+11:27:16.616 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule z took 9ms
+11:27:16.616 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ac
+11:27:16.616 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ac took 773ms
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ah
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ah took 0ms
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i
+11:27:17.390 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.394 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i took 4ms
+11:27:17.394 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aa
+11:27:17.394 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aa took 3ms
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ab
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aw
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ObserverMethodSpecificationDetector
+11:27:17.398 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.401 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ObserverMethodSpecificationDetector took 2ms
+11:27:17.401 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aw
+11:27:17.401 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:17.404 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Indexing...
+11:27:17.971 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aw took 570ms
+11:27:17.975 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ap
+11:27:17.975 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai
+11:27:17.975 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CoverageReportOptionsDetector
+11:27:17.975 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ar
+11:27:17.975 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.000 [DEBUG] [Checking][main][com.diffblue.cover.m.a.ar] the build system has test sources configured
+11:27:18.003 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected test output directory: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\java
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_TESTING_FRAMEWORK: Not Supplied
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ar took 28ms
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CoverageReportOptionsDetector
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_JACOCO_COMMAND_DIFFBLUE: Not Supplied
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_JACOCO_COMMAND_MANUAL: Not Supplied
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_JACOCO_XML_TEST_REPORT: Not Supplied
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CoverageReportOptionsDetector took 0ms
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aj
+11:27:18.004 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.007 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aj took 2ms
+11:27:18.007 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai
+11:27:18.007 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.008 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ai took 1ms
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ValidationOptionsDetector
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_VALIDATION_COMMAND: Not Supplied
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ValidationOptionsDetector took 0ms
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ap
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_TESTNG: Skipped
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ap took 0ms
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ao
+11:27:18.009 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:18.020 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:18.029 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D checkstyle.skip=true -D test=DummyJupiterDiffblueTest -D spring-javaformat.skip=true -D license.skip=true -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test -pl org.example:simplejavacalculator"
+11:27:25.062 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:25.062 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:25.062 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.062 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:25.062 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Changes detected - recompiling the module! :source
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Compiling 1 source file with javac [debug target 20] to target\test-classes
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [WARNING] system modules path not set in conjunction with -source 20
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- surefire:3.1.2:test (default-test) @ simplejavacalculator ---
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom (4.7 kB at 11 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom (2.6 kB at 82 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom (2.8 kB at 156 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom (3.0 kB at 159 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom (3.2 kB at 128 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 80 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom (2.8 kB at 157 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar (27 kB at 631 kB/s)
+11:27:25.063 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar (169 kB at 3.3 MB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 130 kB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar (103 kB at 1.3 MB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar (189 kB at 2.2 MB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar (18 kB at 147 kB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.pom
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.pom (3.0 kB at 80 kB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar (184 kB at 1.7 MB/s)
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] -------------------------------------------------------
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]  T E S T S
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] -------------------------------------------------------
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Running org.example.jupiter.DummyJupiterDiffblueTest
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s -- in org.example.jupiter.DummyJupiterDiffblueTest
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Results:
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  4.537 s
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:24+05:30
+11:27:25.064 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ao took 7055ms
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule an
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JUNIT: Skipped
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule an took 0ms
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o
+11:27:25.065 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:25.067 [DEBUG] [Checking][main][com.diffblue.cover.m.c.o] JUnitJupiter5 is present
+11:27:25.067 [DEBUG] [Checking][main][com.diffblue.cover.m.c.o] JUnitJupiter5 is supported
+11:27:25.067 [DEBUG] [Checking][main][com.diffblue.cover.m.c.o] JUnit 5 is present and either it's not been specified by the user or it is the same as the version the user specified
+11:27:25.068 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected test framework: JUnit Jupiter
+11:27:25.070 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o took 4ms
+11:27:25.070 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ab
+11:27:25.070 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:25.076 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_MOCKITO_EXTENSION: The Mockito Extension is not configured.
+11:27:25.076 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ab took 6ms
+11:27:25.076 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule q
+11:27:25.076 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:25.091 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_JAKARTA_API: Skipped
+11:27:25.091 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule q took 15ms
+11:27:25.091 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule j
+11:27:25.091 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:25.094 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:25.096 [INFO]  [Checking][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D checkstyle.skip=true -D test=DummyJUnitJupiterLauncherDiffblueTest3557952880214590907 -D spring-javaformat.skip=true -D license.skip=true -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar -D spotless.check.skip=true test -pl org.example:simplejavacalculator"
+11:27:32.122 [INFO]  [Checking][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Changes detected - recompiling the module! :source
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Compiling 1 source file with javac [debug target 20] to target\test-classes
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [WARNING] system modules path not set in conjunction with -source 20
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] --- surefire:3.1.2:test (default-test) @ simplejavacalculator ---
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+11:27:32.123 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] -------------------------------------------------------
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO]  T E S T S
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] -------------------------------------------------------
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Running DummyJUnitJupiterLauncherDiffblueTest3557952880214590907
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in DummyJUnitJupiterLauncherDiffblueTest3557952880214590907
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Results:
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Total time:  4.628 s
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:31+05:30
+11:27:32.124 [INFO]  [Checking][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule j took 7035ms
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_JUNIT_LAUNCHER: Skipped
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k took 0ms
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aq
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTNG_LAUNCHER: Skipped
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aq took 0ms
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h
+11:27:32.127 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_ASSERTION_FRAMEWORK_HAMCREST1: b: Failed to determine Hamcrest 1 version; no indicator found
+11:27:32.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_ASSERTION_FRAMEWORK_HAMCREST2: b: Failed to determine Hamcrest 2 version from manifest; resource not found: org/hamcrest/io/FileMatchers.class
+11:27:32.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h took 11ms
+11:27:32.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ag
+11:27:32.139 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.657 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ag took 518ms
+11:27:32.658 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t
+11:27:32.658 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.658 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t took 0ms
+11:27:32.658 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v
+11:27:32.658 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.658 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Detected JVM architecture: 64-Bit
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_JUNIT_VINTAGE_ENGINE: Skipped
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_JACOCO_PLUGIN_VERSION: Skipped
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JACOCO_JUNIT: Skipped
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n took 0ms
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o
+11:27:32.659 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.660 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JACOCO_JUPITER: Skipped
+11:27:32.660 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o took 0ms
+11:27:32.660 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule w
+11:27:32.660 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.667 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_KOTLIN_VERSION: Not Detected
+11:27:32.667 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule w took 7ms
+11:27:32.667 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule x
+11:27:32.667 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.675 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for DETECTED_KOTLIN_TEST_VERSION: Not Detected
+11:27:32.675 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule x took 7ms
+11:27:32.675 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f
+11:27:32.675 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f took 121ms
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule PreflightTestExecutionOptionsDetector
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_PREFLIGHT_TEST_EXECUTION_COMMAND: Not Supplied
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule PreflightTestExecutionOptionsDetector took 0ms
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule RefactorOptionsDetector
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule RefactorOptionsDetector took 0ms
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule AnalyzerServiceOptionsDetector
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule AnalyzerServiceOptionsDetector took 0ms
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule av
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_TRACE_DIRECTORY: Not Supplied
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule av took 0ms
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule UploadOptionsDetector
+11:27:32.797 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_REPORTS_PROJECT: Not Supplied
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_REPORTS_URL: Not Supplied
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule UploadOptionsDetector took 15ms
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule MaxHeapSizeDetector
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule MaxHeapSizeDetector took 0ms
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_EXISTING_COVERAGE_JACOCO_FILE: Not Supplied
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SPECIFIED_PATCH_FILE: Not Supplied
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule g took 0ms
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d took 0ms
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+11:27:32.813 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.817 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected Java language compliance level: 1.8, because 20 is not supported
+11:27:32.817 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c took 4ms
+11:27:32.817 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d
+11:27:32.818 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.818 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d took 0ms
+11:27:32.818 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m
+11:27:32.818 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.819 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Selected test validation: enabled
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m took 1ms
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h took 0ms
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule e
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_ASSERTION_FRAMEWORK_HAMCREST: Not Detected
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule e took 0ms
+11:27:32.819 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k took 0ms
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l took 0ms
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i took 0ms
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CliEntryPointsSelector
+11:27:32.820 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:32.850 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Prefixes for filtering classes/methods:
+11:27:32.852 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] - org.example
+11:27:32.853 [INFO]  [Checking][main][com.diffblue.cover.ui.a.j] Gathering methods to test...
+11:27:35.660 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for SELECTED_PATCH_CLASSES: Not Detected
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CliEntryPointsSelector took 2840ms
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule l took 0ms
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule c took 0ms
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b
+11:27:35.661 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule b took 1ms
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule m took 0ms
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a
+11:27:35.663 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule a took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule o took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule al
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule al took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule r
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule r took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule t took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ah
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ah took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule d took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule s took 0ms
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k
+11:27:35.664 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule k took 0ms
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aj
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule aj took 0ms
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule q
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule q took 0ms
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ad
+11:27:35.665 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule y
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule z
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_CORE: Not Detected
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule z took 0ms
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule x
+11:27:35.666 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_BOOT: Skipped
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule x took 2ms
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule y
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_BOOT_TEST: Skipped
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule y took 0ms
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ae
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ag
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_WEB: Skipped
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ag took 0ms
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ae
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_SECURITY_WEB: Skipped
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ae took 0ms
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule af
+11:27:35.668 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Error provided for RECOMMENDED_SPRING_TEST: Skipped
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule af took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ad
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ad took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule f took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ac
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ac took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule n took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule p took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule j
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule j took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule h took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule i took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ak took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule an
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule an took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule e
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule e took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule v took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule am
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule am took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CoverageReportOptionsRecommender
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CoverageReportOptionsRecommender took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule MaxHeapSizeRecommender
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule MaxHeapSizeRecommender took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ObserverMethodSpecificationRecommender
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule ObserverMethodSpecificationRecommender took 0ms
+11:27:35.669 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CliEntryPointsRecommender
+11:27:35.670 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule did not fire
+11:27:35.670 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule CliEntryPointsRecommender took 0ms
+11:27:35.670 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule w
+11:27:35.670 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c]   Rule fired
+11:27:35.670 [DEBUG] [Checking][main][com.diffblue.cover.commons.m.c] Processing rule w took 0ms
+11:27:35.692 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+11:27:35.694 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment summary:
+11:27:35.694 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] --------------------
+11:27:35.702 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Java version                  21.0.1                        SUCCESS        
+11:27:35.703 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Build system                  Maven                         SUCCESS        
+11:27:35.703 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Mocking Framework             Mockito 5.8.0                 SUCCESS        
+11:27:35.704 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Surefire version              3.1.2                         SUCCESS        
+11:27:35.704 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Testing framework             JUnit Jupiter 5               SUCCESS        
+11:27:35.705 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] JavaEE version                Skipped                       -----          
+11:27:35.705 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] JaCoCo plugin version         0.8.11                        SUCCESS        
+11:27:35.705 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Launcher                      JUnit Jupiter                 SUCCESS        
+11:27:35.706 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Test validation               Enabled                       SUCCESS        
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Hamcrest                      Not Detected                  -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Core                   Not Detected                  -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Boot                   Skipped                       -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Test              Skipped                       -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Web                    Skipped                       -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Security Web           Skipped                       -----          
+11:27:35.706 [DEBUG] [Reporting][main][com.diffblue.cover.ui.f] Spring Test                   Skipped                       -----          
+11:27:35.706 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+11:27:35.707 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment check status: SUCCESS
+11:27:35.763 [INFO]  [Reporting][main][com.diffblue.dependency.d.c] Maven Using ${maven.home} of: C:\Program Files\apache-maven-3.9.4.
+11:27:35.766 [INFO]  [Reporting][main][com.diffblue.dependency.d.c] Maven Executing: cmd.exe /X /C ""C:\Program Files\apache-maven-3.9.4\bin\mvn.cmd" -B -D test=!*DiffblueTest.java,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java -D surefire.failIfNoSpecifiedTests=false -D maven.test.failure.ignore=true -D failIfNoTests=false -D jacoco.skip=false -D maven.ext.class.path=C:\Users\Soham.P\Downloads\diffblue-cover-cli-2023.12.02\cover-buildsystem-maven-spy-jar-with-dependencies.jar org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent test org.jacoco:jacoco-maven-plugin:0.8.11:report -pl org.example:simplejavacalculator -am"
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] Standard output of build tool (Maven)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Scanning for projects...
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.11/jacoco-maven-plugin-0.8.11.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.11/jacoco-maven-plugin-0.8.11.pom (4.2 kB at 10 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.11/org.jacoco.build-0.8.11.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.11/org.jacoco.build-0.8.11.pom (44 kB at 471 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-bom/9.6/asm-bom-9.6.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-bom/9.6/asm-bom-9.6.pom (3.2 kB at 63 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.11/jacoco-maven-plugin-0.8.11.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.11/jacoco-maven-plugin-0.8.11.jar (57 kB at 885 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] ------------------< org.example:simplejavacalculator >------------------
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Building simplejavacalculator 1.0-SNAPSHOT
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO]   from pom.xml
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ simplejavacalculator ---
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11.pom (3.5 kB at 85 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.11/org.jacoco.core-0.8.11.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.11/org.jacoco.core-0.8.11.pom (2.1 kB at 56 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.pom (2.4 kB at 62 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.pom (2.8 kB at 63 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.pom (2.6 kB at 70 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.11/org.jacoco.report-0.8.11.pom
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.11/org.jacoco.report-0.8.11.pom (1.9 kB at 48 kB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 2.6 MB/s)
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.11/org.jacoco.core-0.8.11.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+11:27:41.775 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar (301 kB at 3.8 MB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.11/org.jacoco.report-0.8.11.jar
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.11/org.jacoco.report-0.8.11.jar (131 kB at 1.1 MB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar (52 kB at 358 kB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar (72 kB at 451 kB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar (124 kB at 698 kB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.11/org.jacoco.core-0.8.11.jar (210 kB at 734 kB/s)
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] argLine set to "-javaagent:C:\\Users\\Soham.P\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.11\\org.jacoco.agent-0.8.11-runtime.jar=destfile=C:\\Users\\Soham.P\\Videos\\PHD Work\\Simple-Java-Calculator\\simplejavacalculator\\target\\jacoco.exec"
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:resources (default-resources) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Copying 0 resource from src\main\resources to target\classes
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:compile (default-compile) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Nothing to compile - all classes are up to date
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- resources:3.3.1:testResources (default-testResources) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] skip non existing resourceDirectory C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\src\test\resources
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Changes detected - recompiling the module! :input tree
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- surefire:3.1.2:test (default-test) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] 
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] --- jacoco:0.8.11:report (default-cli) @ simplejavacalculator ---
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Loading execution data file C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\target\jacoco.exec
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Analyzed bundle 'simplejavacalculator' with 6 classes
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] BUILD SUCCESS
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Total time:  3.300 s
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] Finished at: 2024-01-04T11:27:41+05:30
+11:27:41.776 [INFO]  [Reporting][main][com.diffblue.dependency.c.a] > [INFO] ------------------------------------------------------------------------
+11:27:41.809 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.j] Existing tests check complete
+11:27:41.834 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.j] Existing tests cover 0 lines from a total of 270 lines (0.0%)
+11:27:42.005 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] 
+11:27:42.008 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] Log file: C:\Users\Soham.P\Videos\PHD Work\Simple-Java-Calculator\simplejavacalculator\.diffblue\log\user-20240104T112654.log
+11:27:42.010 [INFO]  [Reporting][main][com.diffblue.cover.ui.a.y] Finished in 49s
