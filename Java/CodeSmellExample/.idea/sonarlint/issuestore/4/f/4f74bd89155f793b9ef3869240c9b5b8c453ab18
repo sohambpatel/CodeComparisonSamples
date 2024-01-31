@@ -1,0 +1,13 @@
+
+w
+java:S1104"ZMake globalVariable a static final constant or non-public and provide accessors if needed.(¬°ç¯8€ÕÜ¨Ê1
+y
+java:S1104"WMake publicField a static final constant or non-public and provide accessors if needed.(Ó™¾ëÿÿÿÿÿ8ÕÜ¨Ê1
+Q
+java:S1444"4Make this "public static globalVariable" field final(¬°ç¯8ÕÜ¨Ê1
+f
+java:S2583*"DChange this condition so that it does not always evaluate to "false"(ÔÀÉ²øÿÿÿÿ8õ«ßÊÊ1
+L	java:S106"+Replace this use of System.out by a logger.(á úÿÿÿÿ8‘ÕÜ¨Ê1
+G	java:S1066"+Replace this use of System.out by a logger.(†øï8”ÕÜ¨Ê1
+S
+java:S1144"1Remove this unused private "unusedMethod" method.(¤¾šúÿÿÿÿ8”ÕÜ¨Ê1
